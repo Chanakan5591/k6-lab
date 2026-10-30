@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local tools and working files
+/.tools/
+/tmp/
+/tools/
+/WALKTHROUGH.md
+/.agents/
+/.codex/
+.env
+.env.*
+!.env.example
+
+# Keep the four lab reports; leave raw runs and local notes out.
+/reports/*
+!/reports/a2-average.html
+!/reports/a3-stress.html
+!/reports/a4-spike.html
+!/reports/a5-soak.html
